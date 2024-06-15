@@ -11,14 +11,12 @@ import React, { useState } from "react";
 import { icons } from "@/constants";
 
 type FormFieldProps = {
-  title: String;
-  value: String;
-  handleChangeText: (
-    e: NativeSyntheticEvent<TextInputSelectionChangeEventData>
-  ) => void;
-  otherStyles?: String;
-  keyboardType?: String;
-  placeholder?: String;
+  title: string;
+  value: string;
+  handleChangeText: (e: string) => void;
+  otherStyles?: string;
+  keyboardType?: string;
+  placeholder?: string;
 };
 
 const FormField = ({

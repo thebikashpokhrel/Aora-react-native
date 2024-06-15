@@ -12,6 +12,7 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "constants/images.js",
-    "app/index.jsx"
+    "app/index.jsx",
+    "lib/appwrite.js"
   ]
 }
